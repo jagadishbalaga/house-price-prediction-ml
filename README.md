@@ -111,3 +111,11 @@ After training, the final model was saved using `joblib`.
 
 ```python
 joblib.dump(best_rf_model, 'house_price_model.pkl')
+
+🌐 Streamlit Deployment
+
+The trained model is connected to a Streamlit web application.
+
+The application allows a user to enter house details and receive a predicted house price.
+To run the application:
+python -m streamlit run app.py
