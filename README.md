@@ -118,4 +118,4 @@ The trained model is connected to a Streamlit web application.
 
 The application allows a user to enter house details and receive a predicted house price.
 To run the application:
-python -m streamlit run app.py
+python -m streamlit run apps.py
